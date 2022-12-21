@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:28:45 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:28:47 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:29:23 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-// iki stringi bellekte karsilastirir fark gordugunde char farkini return eder.

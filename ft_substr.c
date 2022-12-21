@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:38:10 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:38:11 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:55 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (NULL);
 }
-//start len arasi bir string olusturur, ve bu stringi return eder.

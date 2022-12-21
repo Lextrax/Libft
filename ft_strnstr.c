@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:37:24 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:37:26 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:40 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,3 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t	n)
 	}
 	return (NULL);
 }
-// s2 yi s1 de arar ve buldugunda devamini return eder. 
-// ornek "ali top at" , "top" return olarak "top at".

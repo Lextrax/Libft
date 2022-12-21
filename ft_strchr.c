@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:35:18 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:35:20 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:06 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-// s stringinin icerisinde c  karakteri bulununca geri kalani return edilir.

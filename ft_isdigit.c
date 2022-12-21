@@ -1,7 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/12/21 09:28:05 by msarigul          #+#    #+#             */
+/*   Updated: 2022/12/21 09:28:08 by msarigul         ###   ########.tr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }
-//verilen c karakterinin bir rakam olup olmadigi kontrol edilir

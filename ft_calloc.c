@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:22:49 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:22:51 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:27:43 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
-// count eleman sayisi
-// size eleman byte boyutu.
-// 19 da malloc ile alan olusturuyoruz.
-// 22 de tamamini 0 ile dolduruyoruz, ve return ediyoruz.

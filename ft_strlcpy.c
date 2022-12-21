@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:36:30 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:36:32 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:25 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
-// src den dst ye size kadar kopyalar src nin uzunluğu return edilir.

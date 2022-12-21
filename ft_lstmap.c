@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:27:35 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:27:37 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:29:06 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void*), void (*del)(void *))
 	}
 	return (first);
 }
-
-// lst nin tum elemanlarina f fonksiyonu uygulanir
-// uygulama sonucunda olusan yeni elemanlar ile (25. satir)
-// yeni bir liste olusturulur 31. satir
-// gerekli durumlarda (lst bittikten sonra) veya f null dondurunce
-// yeni olusturulan first degiskeninin icerisi temizlenir 
-// ve  delete ile silinir.

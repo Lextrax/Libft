@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:36:45 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:36:46 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:29 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-//verilen stringin uzunlugunu dondurur.

@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:28:27 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:28:29 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:29:19 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 			return ((void *)(temp - 1));
 	return (NULL);
 }
-// s dizisinde c bulundugunda pointeri return eder. n kadar bakar.

@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:38:01 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:38:02 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:51 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,13 +49,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[index] = '\0';
 	return (str);
 }
-// s1 in basinda ve sonunda set deki karakterler aranir
-// eger bulunursa kirpilir ve yeni bir string olusturulur
-// o string return edilir
-//ft_checkset de karakterde string aranir.
-//39 da baslangictaki karakter icin kirpma yapiyoruz
-//41 de sondaki karakterler icin kirpma yapiyoruz.
-// 43 de kirpmadan sonra kalan byte sayisini hesapliyoruz 
-// ve yeni bir str olusturuyoruz.
-// 48 de yeni str ye verileri aktiriyoruz.
-// ve return ediyoruz.

@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:29:42 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:29:43 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:29:36 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	s = buc;
 	return (s);
 }
-//s dizisini n'ye kadar c byte'i doldurur 

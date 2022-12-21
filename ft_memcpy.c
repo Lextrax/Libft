@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:29:01 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:29:03 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:29:26 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		destc[n] = srcc[n];
 	return (dest);
 }
-// src den deste n kadar kopyalar.

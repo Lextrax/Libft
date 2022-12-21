@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:37:47 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:37:48 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:44 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-//strchr nin tersi.

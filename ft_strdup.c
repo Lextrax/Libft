@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:35:29 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:35:30 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:10 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,3 @@ char	*ft_strdup(const char *s)
 	str[i] = 0;
 	return (str);
 }
-// s yi klonlar ve return olarak yeni bir pointer dondurur.

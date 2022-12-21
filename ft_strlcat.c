@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:36:18 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:36:20 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:21 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,4 +37,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		dest_len = size;
 	return (dest_len + src_len);
 }
-//deste src yi ekler, return olarak, dest ve src uzunlugu toplanip dondurulur.

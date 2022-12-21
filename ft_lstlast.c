@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:27:20 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:27:22 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:28:59 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,3 @@ t_list	*ft_lstlast(t_list *lst)
 		ptr = ptr->next;
 	return (ptr);
 }
-
-// lst nin son degeri doner. 

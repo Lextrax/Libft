@@ -1,6 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/12/21 09:28:20 by msarigul          #+#    #+#             */
+/*   Updated: 2022/12/21 09:28:25 by msarigul         ###   ########.tr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-//basamak sayısı. negatif ise 1 fazla çünkü uzunluğu buluyoruz.
 int	get_len(int nbr)
 {
 	int	nbr_len;
@@ -44,8 +55,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-//int to string
-// 36 da uzunlugu buluyoruz
-// 37 de str mizi olusturuyoruz.
-// 44 minimum intse problem olmamasi icin manuel sekilde return ediyoruz.
-// 54 de basamak basamak str ye charlari ekliyoruz.

@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:36:04 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:36:06 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:17 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,4 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s3[i + j] = 0;
 	return (s3);
 }
-//s1 ve s2 yi birlestirir yeni bir string olusturur bunu return eder.

@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:35:49 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:35:51 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:13 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		}
 	}
 }
-//s stringindeki her karakterin adresine tek tek f fonksiyonu uygulanir.

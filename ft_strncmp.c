@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:37:12 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:37:14 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:37 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t size)
 	}
 	return (0);
 }
-// iki stringi karsilastirir fark gordugunde char farkini return eder.

@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:25:12 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:25:14 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:28:32 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,3 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		ptr->next = new;
 	}
 }
-
-//19da lst bos ise direkt ilk eleman new atanir.
-//24de  ptr nin en sonuna dek gider ptr next null oldugunda 
-// 26 da new parametresi en sona atanir ve new in nexti null yapilir.
-// cunku new->next null olmali en sona new.

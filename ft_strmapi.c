@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 04:36:59 by msarigul          #+#    #+#             */
-/*   Updated: 2022/07/18 04:37:00 by msarigul         ###   ########.TR       */
+/*   Updated: 2022/12/21 09:30:33 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (str);
 }
-// ilk parametre, normal string, ikinci parametre fonksiyon pointeri.
-//23 -yeni str oluşturuluyor.
-// 28 her char için fonksiyon uygulanıyor.
